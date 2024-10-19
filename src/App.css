@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+header {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 50px;             
+    font-size: 1.5em;         
+    font-weight: bold;
+    color: #fdfafa;
+    background-color: rgb(41, 42, 44);
+  }
+
+.stock-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+  .stock-search-container h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+  }
+  
+  
+  select {
+    padding: 8px;
+    font-size: 1em;
+    margin-right: 10px; 
+  }
+  
+  
+  .load-btn, .search-btn {
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .load-btn {
+    margin-left: 10px;
+  }
+  
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+    
+  .footer {
+
+    
+    justify-content: bottom;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    margin-top: 500px; /* Pushes the footer to the bottom */
+  }
+  
+  /* Table inside footer */
+  footer table {
+    margin: 0 auto; /* Centers the table */
+    width: 80%;     /* Adjust table width */
+    border-collapse: collapse;
+  }
+  
+  /* Table cells and headers styling */
+  footer table th, footer table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer table th {
+    background-color: #4d4949;
+    color: white;
+  }
+  
+  footer table td {
+    background-color: #fff;
+  }
